@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoLife 🌍 | Save Our Planet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🌿 EcoLife Awareness</h1>
+  <p>Plant Trees 🌳 | Save Water 💧 | Protect Nature 🌎</p>
+</header>
+
+<main>
+  <h2>🌳 Grow Your Virtual Eco Garden</h2>
+  <p>Click the buttons below to take eco actions and see your progress. Each tree and action helps the planet!</p>
+
+  <div class="treeArea" id="treeArea">
+    <p id="emptyMsg">No trees yet — start planting!</p>
+  </div>
+
+  <button class="btn" onclick="plantTree()">🌱 Plant Tree</button>
+  <button class="btn" onclick="saveWater()">💧 Save Water</button>
+  <button class="btn" onclick="reduceWaste()">♻️ Reduce Waste</button>
+
+  <div class="progressBar"><div class="progressFill" id="progressFill"></div></div>
+  <p>Eco Level: <span id="ecoLevel">0%</span></p>
+
+  <div class="tips-container">
+    <div class="tip-card">
+      <h3>💧 Save Water</h3>
+      <p>Turn off taps while brushing. Collect rainwater for your garden.</p>
+    </div>
+    <div class="tip-card">
+      <h3>🌱 Plant Trees</h3>
+      <p>Plant trees in your area. They clean the air and provide shade.</p>
+    </div>
+    <div class="tip-card">
+      <h3>♻️ Reduce Waste</h3>
+      <p>Recycle plastics, reduce single-use items, and compost organic waste.</p>
+    </div>
+    <div class="tip-card">
+      <h3>🌿 Go Green</h3>
+      <p>Use cloth bags, walk or bike, and educate others about eco-living.</p>
+    </div>
+  </div>
+
+  <div id="actionMessage"></div>
+</main>
+
+<footer>© 2025 EcoLife Project | Designed by Khadija 🌿💧</footer>
+
+<!-- Link external JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
